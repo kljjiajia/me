@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本专线-奈飞-TK-GPT - giao云, server: 91zx.ljydw.top, port: 44993, type: trojan, password: c9b4af62-5165-4c1f-aff5-6c3bddd21248, sni: 919jp02.ljydw.top, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本专线-奈飞-TK-GPT - giao云, server: 91zx.ljydw.top, port: 44993, type: trojan, password: 8f0c8b2f-30ab-41f6-bc04-5a0fbf9f86a6, sni: 919jp02.ljydw.top, skip-cert-verify: true, udp: true}
