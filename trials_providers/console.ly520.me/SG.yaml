@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡-01 | 1.5X - 凌云网络, server: js1.76po.com, port: 26480, type: vmess, uuid: f579715c-be33-4361-916b-5bcd971adf90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡-01 | 1.5X - 凌云网络, server: js1.76po.com, port: 26480, type: vmess, uuid: a5fdd889-5565-40f2-bf87-e6c9bceb8f36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
