@@ -3,9 +3,9 @@
 proxies:
 - {name: 域名被屏蔽，先连节点再访问 - giao云, server: 8.8.8.8, port: 22266, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0c8b2f-30ab-41f6-bc04-5a0fbf9f86a6, udp: true}
 - {name: 🇱🇺 卢森堡专线-奈飞-TK - giao云, server: 91zx.ljydw.top, port: 25559, type: trojan, password: 8f0c8b2f-30ab-41f6-bc04-5a0fbf9f86a6, sni: 914lxb.ljydw.top, skip-cert-verify: true, udp: true}
-- {name: 凌云网络 www.ly520.me - 凌云网络, server: 11.4.5.14, port: 19198, type: vmess, uuid: 711aa9ab-bfed-4317-b4e6-dfd4559ad942, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国-01 | 1.8X - 凌云网络, server: 1.76po.com, port: 17744, type: vmess, uuid: 711aa9ab-bfed-4317-b4e6-dfd4559ad942, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国-01 | 1.8X - 凌云网络, server: js1.76po.com, port: 51594, type: vmess, uuid: 711aa9ab-bfed-4317-b4e6-dfd4559ad942, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 凌云网络 www.ly520.me - 凌云网络, server: 11.4.5.14, port: 19198, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国-01 | 1.8X - 凌云网络, server: 1.76po.com, port: 17744, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国-01 | 1.8X - 凌云网络, server: js1.76po.com, port: 51594, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇦🇺 GCP-AU1-20230930 - Kangaroo✦Network, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 518709b9-224d-44a0-9aa0-f6dfbc12df7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
 - {name: 🇻🇳 vip1 越南-01 - FastFly, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: f45bbecc-ad2d-44c6-a60f-c25d3d7bee7d, udp: true}
 - {name: 🇻🇳 vip1 越南-02 - FastFly, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: f45bbecc-ad2d-44c6-a60f-c25d3d7bee7d, udp: true}
@@ -144,4 +144,4 @@ proxies:
 - {name: 🇻🇳 JCBB_越南 01【vip1】 - JCBB, server: gzyd.jcnode.top, port: 16242, type: trojan, password: ebc8ec82-29c0-40d1-a518-b9fe096fde6f, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇻🇳 JCBB_越南 02【vip1】 - JCBB, server: gzdx01.jcnode.top, port: 21760, type: trojan, password: ebc8ec82-29c0-40d1-a518-b9fe096fde6f, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇻🇳 JCBB_越南 03【vip1】 - JCBB, server: gzdx.jcnode.top, port: 17022, type: trojan, password: ebc8ec82-29c0-40d1-a518-b9fe096fde6f, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 🇲🇳 【I】蒙古 普通 A - MN - SockBoom, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 936977:iXTmS6, obfs-param: download.windowsupdate.com, udp: true}
+- {name: 🇲🇳 【I】蒙古 普通 A - MN - SockBoom, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 938192:WvZzSE, obfs-param: download.windowsupdate.com, udp: true}
