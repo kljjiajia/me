@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾 01 - V2Link VPN, server: host-021.crazyspeed.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 1e9b4d47-7c1b-4a1a-96ee-f2419de8a8a7, udp: true}
-- {name: 🇹🇼 台湾 02 - V2Link VPN, server: host-022.crazyspeed.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 1e9b4d47-7c1b-4a1a-96ee-f2419de8a8a7, udp: true}
-- {name: 🇹🇼 台湾 03 - V2Link VPN, server: host-023.crazyspeed.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 1e9b4d47-7c1b-4a1a-96ee-f2419de8a8a7, udp: true}
+- {name: 🇹🇼 台湾 01 - V2Link VPN, server: host-021.crazyspeed.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 6a37173c-29ee-4c4b-ba45-b17f67f0b74c, udp: true}
+- {name: 🇹🇼 台湾 02 - V2Link VPN, server: host-022.crazyspeed.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 6a37173c-29ee-4c4b-ba45-b17f67f0b74c, udp: true}
+- {name: 🇹🇼 台湾 03 - V2Link VPN, server: host-023.crazyspeed.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 6a37173c-29ee-4c4b-ba45-b17f67f0b74c, udp: true}
