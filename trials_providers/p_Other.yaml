@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: ℹ 距离下次重置剩余：17 天 - FastFly, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 541c80a4-713e-4c3e-9177-4b21ef5d3070, udp: true}
+- {name: ℹ 距离下次重置剩余：16 天 - FastFly, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 0e735eb0-e448-49f7-939d-df1b3068c75a, udp: true}
 - {name: 距离下次重置剩余：20 天 - Kako Cloud, server: Dont.Connect.Me, port: 65535, type: ss, cipher: chacha20-ietf-poly1305, password: 850d423e-3987-422a-a15a-a0c5e5eb1beb, udp: true}
 - {name: 免费计划仅包含4个节点，要获取全部节点，请购买付费套餐。 - Kako Cloud, server: Dont.Connect.Me, port: 65535, type: ss, cipher: chacha20-ietf-poly1305, password: 850d423e-3987-422a-a15a-a0c5e5eb1beb, udp: true}
 - {name: ℹ 距离下次重置剩余：16 天 - JCBB, server: gdct001.theyydsnode.top, port: 16343, type: trojan, password: a2fc2335-29ad-4a8e-a5c9-2a9b4556f478, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -13,8 +13,8 @@ proxies:
 - {name: ℹ 距离下次重置剩余：29 天 - Kangaroo✦Network, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: b38224e0-45ab-4715-8cb6-db2d218fdf7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
 - {name: ℹ 官网 https://1100.gg（非节点） - Cyanmori, server: orajp2.susenl.com, port: 443, type: vmess, uuid: b6d48cc1-9f3e-3016-93c5-4ec5b1e31fa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: ℹ 提示：使用前请更新订阅 - Cyanmori, server: orajp2.susenl.com, port: 443, type: vmess, uuid: b6d48cc1-9f3e-3016-93c5-4ec5b1e31fa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: e0afe849-50d6-4141-afa2-cd4df09c7c47, udp: true}
-- {name: ℹ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: e0afe849-50d6-4141-afa2-cd4df09c7c47, udp: true}
+- {name: ℹ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 629cecaf-c698-4b4a-a41c-1759331c03a7, udp: true}
+- {name: ℹ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 629cecaf-c698-4b4a-a41c-1759331c03a7, udp: true}
 - {name: 🌞🌞网址：www.qqcryxr.com - 探索者, server: 603diya.donghui.tech, port: 34641, type: vmess, uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 603diya.donghui.tech}}, udp: true}
 - {name: 🌞🌞网址：www.cryxr2.com - 探索者, server: 603diya.donghui.tech, port: 34636, type: vmess, uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 603diya.donghui.tech}}, udp: true}
 - {name: 🌞🌞网址：www.cryxr3.com - 探索者, server: 603diya.donghui.tech, port: 34637, type: vmess, uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 603diya.donghui.tech}}, udp: true}
