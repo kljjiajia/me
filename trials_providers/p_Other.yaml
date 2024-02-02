@@ -6,8 +6,8 @@ proxies:
 - {name: 免费计划仅包含4个节点，要获取全部节点，请购买付费套餐。 - Kako Cloud, server: Dont.Connect.Me, port: 65535, type: ss, cipher: chacha20-ietf-poly1305, password: 850d423e-3987-422a-a15a-a0c5e5eb1beb, udp: true}
 - {name: ℹ 官网 https://1100.gg（非节点） - Cyanmori, server: orajp2.susenl.com, port: 443, type: vmess, uuid: c690f09f-9dba-3f74-ab34-1ba262dc5515, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: ℹ 提示：使用前请更新订阅 - Cyanmori, server: orajp2.susenl.com, port: 443, type: vmess, uuid: c690f09f-9dba-3f74-ab34-1ba262dc5515, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: f717e278-f7f6-4c1d-b1b5-20e3739b290f, udp: true}
-- {name: ℹ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: f717e278-f7f6-4c1d-b1b5-20e3739b290f, udp: true}
+- {name: ℹ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 5a178bcd-c6a4-4a6f-a137-ea5a87710dcd, udp: true}
+- {name: ℹ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 5a178bcd-c6a4-4a6f-a137-ea5a87710dcd, udp: true}
 - {name: ℹ 距离下次重置剩余：28 天 - JCBB, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: 70d813f8-9e0b-47cc-8d1e-6ed588f66346, sni: gdct003.jcnode.top, skip-cert-verify: true, udp: true}
 - {name: ℹ JCBB永久跳转地址 jcbb.cc - JCBB, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: 70d813f8-9e0b-47cc-8d1e-6ed588f66346, sni: gdct003.jcnode.top, skip-cert-verify: true, udp: true}
 - {name: ℹ 最新网址ww1.giaoyun.xyz（正常访问） - giao云, server: 9.9.9.9, port: 25252, type: ss, cipher: chacha20-ietf-poly1305, password: 6fb8ebfd-26b6-41ba-bcb3-ce933e15e356, udp: true}
