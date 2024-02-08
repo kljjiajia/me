@@ -136,18 +136,18 @@ proxies:
 - {name: 🇭🇰 Video 香港C-标准 - AyucLouD-Services, server: 231103level2.unclemanco.com, port: 9052, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: af63a88103.download.windowsupdate.com}, udp: true}
 - {name: 🇭🇰 Web 香港I-标准 - AyucLouD-Services, server: 231103level1.unclemanco.com, port: 912, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: af63a88103.download.windowsupdate.com}, udp: true}
 - {name: 🇭🇰 Web 香港II-标准 - AyucLouD-Services, server: 231103level1.unclemanco.com, port: 840, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: af63a88103.download.windowsupdate.com}, udp: true}
-- {name: 🇭🇰 vip1 香港-01 - FastFly, server: gdct001.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-02 - FastFly, server: gdct003.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-03 - FastFly, server: shcm002.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-07 - FastFly, server: gdct001.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-08 - FastFly, server: gdct003.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-09 - FastFly, server: shcm002.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-13 - FastFly, server: gdct001.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-14 - FastFly, server: gdct003.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-15 - FastFly, server: shcm002.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-19 - FastFly, server: gdct001.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-20 - FastFly, server: gdct003.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
-- {name: 🇭🇰 vip1 香港-21 - FastFly, server: shcm002.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 25865b3a-adb3-4f3f-b9d4-b40c43c70f78, udp: true}
+- {name: 🇭🇰 vip1 香港-01 - FastFly, server: gdct001.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-02 - FastFly, server: gdct003.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-03 - FastFly, server: shcm002.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-07 - FastFly, server: gdct001.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-08 - FastFly, server: gdct003.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-09 - FastFly, server: shcm002.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-13 - FastFly, server: gdct001.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-14 - FastFly, server: gdct003.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-15 - FastFly, server: shcm002.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-19 - FastFly, server: gdct001.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-20 - FastFly, server: gdct003.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
+- {name: 🇭🇰 vip1 香港-21 - FastFly, server: shcm002.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 227fb98a-d852-479c-be6a-b7f0582ad4eb, udp: true}
 - {name: 🇭🇰 JCBB_香港01【vip1】 - JCBB, server: shcm002.theyydsnode.top, port: 25974, type: trojan, password: a2f5f239-2236-47bc-91e3-1a6264d0cdb9, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 JCBB_香港02【vip1】 - JCBB, server: gdct001.theyydsnode.top, port: 25974, type: trojan, password: a2f5f239-2236-47bc-91e3-1a6264d0cdb9, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 JCBB_香港03【vip1】 - JCBB, server: gdct003.theyydsnode.top, port: 25974, type: trojan, password: a2f5f239-2236-47bc-91e3-1a6264d0cdb9, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
