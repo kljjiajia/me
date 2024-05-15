@@ -134,5 +134,5 @@ proxies:
 - {name: 🇺🇸 JCBB_美国05_1【vip1】 - JCBB, server: gcdddd0005.likeone.lol, port: 26681, type: trojan, password: 4b958c58-0b89-49e3-b4bb-5cc3cc3505f7, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 JCBB_美国05【vip1】 - JCBB, server: gcdddd0003.likeone.lol, port: 26681, type: trojan, password: 4b958c58-0b89-49e3-b4bb-5cc3cc3505f7, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 JCBB_美国06【vip1】 - JCBB, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 4b958c58-0b89-49e3-b4bb-5cc3cc3505f7, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 1 - 西瓜皮是真的皮, server: xg-cm2.dx001.top, port: 29811, type: vmess, uuid: c064d067-c20b-39da-8f23-9078bdd973b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 2 - 西瓜皮是真的皮, server: xg-ct2.dx001.top, port: 19862, type: vmess, uuid: c064d067-c20b-39da-8f23-9078bdd973b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 1 - 西瓜皮是真的皮, server: xg-cm2.dx001.top, port: 29811, type: vmess, uuid: 20eb7334-fcbc-33c1-87f1-829f30338d61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 2 - 西瓜皮是真的皮, server: xg-ct2.dx001.top, port: 19862, type: vmess, uuid: 20eb7334-fcbc-33c1-87f1-829f30338d61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
