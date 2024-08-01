@@ -10,10 +10,10 @@ proxies:
 - {name: 🇯🇵 日本 07 - V2Link VPN, server: host-017.crazyspeed.xyz, port: 30607, type: ss, cipher: chacha20-ietf-poly1305, password: fa292d69-b556-4846-80ff-e7cc08c0a527, udp: true}
 - {name: 🇯🇵 日本 08 - V2Link VPN, server: host-018.crazyspeed.xyz, port: 30608, type: ss, cipher: chacha20-ietf-poly1305, password: fa292d69-b556-4846-80ff-e7cc08c0a527, udp: true}
 - {name: 🇯🇵 日本隧道1-NF-TK-GPT - giao云, server: 418jp.ljydw.top, port: 36632, type: trojan, password: 3111a12f-870a-49b2-bf1e-6ac1e7a39a1e, sni: 418jp.ljydw.top, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本01 - Cyanmori, server: jp1.lvuy.xyz, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: uUwRN5tAreXMeivN, udp: true}
-- {name: 🇯🇵 日本02 - Cyanmori, server: jp2.lvuy.xyz, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: uUwRN5tAreXMeivN, udp: true}
-- {name: 🇯🇵 日本03 - Cyanmori, server: jp3.lvuy.xyz, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: uUwRN5tAreXMeivN, udp: true}
-- {name: 🇯🇵 日本04 - Cyanmori, server: jp4.lvuy.xyz, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: uUwRN5tAreXMeivN, udp: true}
+- {name: 🇯🇵 日本01 - Cyanmori, server: jp1.lvuy.xyz, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: M112YWIcQFOwdLlO, udp: true}
+- {name: 🇯🇵 日本02 - Cyanmori, server: jp2.lvuy.xyz, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: M112YWIcQFOwdLlO, udp: true}
+- {name: 🇯🇵 日本03 - Cyanmori, server: jp3.lvuy.xyz, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: M112YWIcQFOwdLlO, udp: true}
+- {name: 🇯🇵 日本04 - Cyanmori, server: jp4.lvuy.xyz, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: M112YWIcQFOwdLlO, udp: true}
 - {name: 🇯🇵 日本-01 | 2X - 凌云网络, server: js1.76po.com, port: 13526, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-02 | 2X - 凌云网络, server: js1.76po.com, port: 42737, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-03 | 2X - 凌云网络, server: js1.76po.com, port: 44639, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
