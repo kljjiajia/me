@@ -1786,9 +1786,9 @@ proxies:
 - {name: '🇰🇷 [vip①]韩国1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 48e52cb3-123c-314f-ae39-a0e067a70fbd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
 - {name: '🇭🇰 [vip①]香港1 - MG Network', server: 8.mamamajd.site, port: 23608, type: vmess, uuid: 48e52cb3-123c-314f-ae39-a0e067a70fbd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇭🇰 [vip①]香港2 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 48e52cb3-123c-314f-ae39-a0e067a70fbd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
-- {name: ℹ️ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 59c9f7ec-d632-481a-8dee-ed26eb40a6b0, udp: true}
-- {name: 🇱🇦 请登录6854.33laomao.com 购买 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 59c9f7ec-d632-481a-8dee-ed26eb40a6b0, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 59c9f7ec-d632-481a-8dee-ed26eb40a6b0, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: d4f8dc93-41f1-4e82-879a-cdcefa469832, udp: true}
+- {name: 🇱🇦 请登录6854.33laomao.com 购买 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: d4f8dc93-41f1-4e82-879a-cdcefa469832, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: d4f8dc93-41f1-4e82-879a-cdcefa469832, udp: true}
 - {name: 🇺🇸 美国-01 | 2X - 凌云网络, server: 1.76po.com, port: 16325, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国-02 | 2X - 凌云网络, server: 1.76po.com, port: 23390, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国-03 | 2X - 凌云网络, server: 1.76po.com, port: 15014, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2395,7 +2395,6 @@ rules:
 - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
 - DOMAIN-SUFFIX,kkgithub.com,DIRECT
 - DOMAIN-SUFFIX,mnnx.cc,🛩️ ‍墙内
-- DOMAIN-SUFFIX,scmx.cc,🛩️ ‍墙内
 - DOMAIN-SUFFIX,jsd.f5.si,🛩️ ‍墙内
 - DOMAIN-SUFFIX,ghraw.f5.si,🛩️ ‍墙内
 - DOMAIN,url.v1.mk,🛩️ ‍墙内
