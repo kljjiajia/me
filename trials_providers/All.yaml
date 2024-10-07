@@ -92,9 +92,9 @@ proxies:
 - {name: '🇰🇷 [vip①]韩国1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: bc15561b-bb13-3558-a1b9-27f0748fd0b2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
 - {name: '🇭🇰 [vip①]香港1 - MG Network', server: 8.mamamajd.site, port: 23608, type: vmess, uuid: bc15561b-bb13-3558-a1b9-27f0748fd0b2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇭🇰 [vip①]香港2 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: bc15561b-bb13-3558-a1b9-27f0748fd0b2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
-- {name: ℹ️ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: a7000b3f-580c-4003-b11c-e1a04bfa4306, udp: true}
-- {name: 🇱🇦 请登录6854.33laomao.com 购买 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: a7000b3f-580c-4003-b11c-e1a04bfa4306, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: a7000b3f-580c-4003-b11c-e1a04bfa4306, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 6bba5293-95d1-4f14-9a25-c56417b9d51b, udp: true}
+- {name: 🇱🇦 请登录6854.33laomao.com 购买 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 6bba5293-95d1-4f14-9a25-c56417b9d51b, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 6bba5293-95d1-4f14-9a25-c56417b9d51b, udp: true}
 - {name: 凌云网络 www.ly520.me - 凌云网络, server: 11.4.5.14, port: 19198, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-01 | 2X - 凌云网络, server: js1.76po.com, port: 13526, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-02 | 2X - 凌云网络, server: js1.76po.com, port: 42737, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
