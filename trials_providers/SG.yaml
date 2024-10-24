@@ -2,16 +2,16 @@
 ---
 proxies:
 - {name: 🇸🇬 新加坡隧道1-NF-TK-GPT - giao云, server: 101.89.150.186, port: 36222, type: trojan, password: 3111a12f-870a-49b2-bf1e-6ac1e7a39a1e, sni: 36sg.ljydw.top, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡01 - 老猫, server: 84758.laomao-53875.xyz, port: 50401, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡02 - 老猫, server: 46358.laomao-53875.xyz, port: 50402, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡03 - 老猫, server: 16258.laomao-53875.xyz, port: 50403, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡04 - 老猫, server: 95858.laomao-53875.xyz, port: 50404, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡05 - 老猫, server: 98758.laomao-53875.xyz, port: 50405, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡06 - 老猫, server: 98538.laomao-53875.xyz, port: 50406, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡07 - 老猫, server: 65358.laomao-53875.xyz, port: 50407, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡08 - 老猫, server: 96358.laomao-53875.xyz, port: 50408, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡09 - 老猫, server: 98358.laomao-53875.xyz, port: 50409, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡10 - 老猫, server: 64358.laomao-53875.xyz, port: 50410, type: trojan, password: 81c2a9be-dfc6-4301-be5e-d55c090392a9, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡01 - 老猫, server: 84758.laomao-53875.xyz, port: 50401, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡02 - 老猫, server: 46358.laomao-53875.xyz, port: 50402, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡03 - 老猫, server: 16258.laomao-53875.xyz, port: 50403, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡04 - 老猫, server: 95858.laomao-53875.xyz, port: 50404, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡05 - 老猫, server: 98758.laomao-53875.xyz, port: 50405, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡06 - 老猫, server: 98538.laomao-53875.xyz, port: 50406, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡07 - 老猫, server: 65358.laomao-53875.xyz, port: 50407, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡08 - 老猫, server: 96358.laomao-53875.xyz, port: 50408, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡09 - 老猫, server: 98358.laomao-53875.xyz, port: 50409, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡10 - 老猫, server: 64358.laomao-53875.xyz, port: 50410, type: trojan, password: b29c62e8-5d3d-4a63-8203-9d9c0b4c91b3, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡-01 | 1.5X - 凌云网络, server: js1.76po.com, port: 26480, type: vmess, uuid: 00ecaf82-12bb-49ba-b0dd-99fe0aaeb531, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 vip1 新加坡-01 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 vip1 新加坡-02 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
