@@ -95,9 +95,9 @@ proxies:
 - {name: 🇹🇷 JCBB_土耳其 01【vip1】 - JCBB, server: gcdddd0001.likeone.lol, port: 60293, type: trojan, password: 4b958c58-0b89-49e3-b4bb-5cc3cc3505f7, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇹🇷 JCBB_土耳其 02【vip1】 - JCBB, server: gcdddd0003.likeone.lol, port: 60293, type: trojan, password: 4b958c58-0b89-49e3-b4bb-5cc3cc3505f7, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇹🇷 JCBB_土耳其 03【vip1】 - JCBB, server: gcdddd0005.likeone.lol, port: 60293, type: trojan, password: 4b958c58-0b89-49e3-b4bb-5cc3cc3505f7, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 您还未购买服务 - 老猫, server: www.google.com, port: 443, tfo: true, type: ss, cipher: aes-128-gcm, password: 8e17d7b7-6570-4415-8c26-c85267f6d8c9, udp: true}
-- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫, server: www.google.com, port: 443, tfo: true, type: ss, cipher: aes-128-gcm, password: 8e17d7b7-6570-4415-8c26-c85267f6d8c9, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, tfo: true, type: ss, cipher: aes-128-gcm, password: 8e17d7b7-6570-4415-8c26-c85267f6d8c9, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 8e17d7b7-6570-4415-8c26-c85267f6d8c9, udp: true}
+- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 8e17d7b7-6570-4415-8c26-c85267f6d8c9, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 8e17d7b7-6570-4415-8c26-c85267f6d8c9, udp: true}
 - {name: 🇦🇺 GCP-AU1-20240215 - Kangaroo✦Network, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: caf714a5-cea2-44dc-a8ee-464c02a1944f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
 - {name: ℹ️ FastFly 永久跳转地址 https://fastfly.club - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: ℹ️ FastFly 国外地址： https://cloud.fastfly.top - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
