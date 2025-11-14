@@ -9,8 +9,138 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
+  - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
+  - 🇭🇰 Video 香港A-解锁 - AyucLouD-Services
+  - 🇭🇰 Video 香港B-标准 - AyucLouD-Services
+  - 🇭🇰 Video 香港C-标准 - AyucLouD-Services
+  - 🇭🇰 Web 香港I-标准 - AyucLouD-Services
+  - 🇭🇰 Web 香港II-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾01-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾02-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾03-专线 - AyucLouD-Services
+  - 🇹🇼 Game 台湾04-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾05-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾06-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾07-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾08-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾A-标准 - AyucLouD-Services
+  - 🇹🇼 Video 台湾B-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾C-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾D-标准 - AyucLouD-Services
+  - 🇹🇼 Video 台湾E-解锁 - AyucLouD-Services
+  - 🇹🇼 Web 台湾I-标准 - AyucLouD-Services
+  - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
+  - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
+  - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
+  - 🇸🇬 Video 新加坡A-解锁 - AyucLouD-Services
+  - 🇸🇬 Video 新加坡B-标准 - AyucLouD-Services
+  - 🇸🇬 Web 新加坡I-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本01-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本02-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本03-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
+  - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
+  - 🇯🇵 Game 日本06-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本08-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本09-专线 - AyucLouD-Services
+  - 🇯🇵 Game 日本10-标准 - AyucLouD-Services
+  - 🇯🇵 Video 日本A-标准 - AyucLouD-Services
+  - 🇯🇵 Video 日本B-解锁 - AyucLouD-Services
+  - 🇯🇵 Video 日本C-原生 - AyucLouD-Services
+  - 🇯🇵 Web 日本I-标准 - AyucLouD-Services
+  - 🇺🇸 Game 美国01-原生 - AyucLouD-Services
+  - 🇺🇸 Game 美国02-原生 - AyucLouD-Services
+  - 🇺🇸 Game 美国03-标准 - AyucLouD-Services
+  - 🇺🇸 Game 美国04-通用 - AyucLouD-Services
+  - 🇺🇸 Game 美国05-标准 - AyucLouD-Services
+  - 🇺🇸 Video 美国A-标准 - AyucLouD-Services
+  - 🇺🇸 Video 美国B-解锁 - AyucLouD-Services
+  - 🇺🇸 Video 美国C-原生 - AyucLouD-Services
+  - 🇺🇸 Video 美国D-原生 - AyucLouD-Services
+  - 🇺🇸 Web 美国I-标准 - AyucLouD-Services
+  - 🇺🇸 Web 美国II-标准 - AyucLouD-Services
+  - 🇺🇸 Web 美国III-标准 - AyucLouD-Services
+  - 🇶🇦 Video 卡塔尔A-标准 - AyucLouD-Services
+  - 🇱🇻 Video 拉脱维亚A-标准 - AyucLouD-Services
+  - 🇪🇪 Web 爱沙尼亚I-标准 - AyucLouD-Services
+  - 🇦🇲 Video 亚美尼亚A-标准 - AyucLouD-Services
+  - 🇭🇷 Video 克罗地亚A-标准 - AyucLouD-Services
+  - 🇦🇱 Web 阿尔巴尼亚I-标准 - AyucLouD-Services
+  - 🇰🇿 Video 哈萨克斯坦A-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国01-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国02-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国03-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国04-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国05-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国06-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国07-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国08-通用 - AyucLouD-Services
+  - 🇰🇷 Game 韩国09-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国10-原生 - AyucLouD-Services
+  - 🇰🇷 Game 韩国11-国际 - AyucLouD-Services
+  - 🇰🇷 Game 韩国12-原生 - AyucLouD-Services
+  - 🇰🇷 Game 韩国13-标准 - AyucLouD-Services
+  - 🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Services
+  - 🇰🇷 Video 韩国A-标准 - AyucLouD-Services
+  - 🇨🇱 Video 智利A-标准 - AyucLouD-Services
+  - 🇧🇷 Video 巴西A-标准 - AyucLouD-Services
+  - 🇩🇰 Video 丹麦A-原生 - AyucLouD-Services
+  - 🇹🇷 Video 土耳其A-标准 - AyucLouD-Services
+  - 🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Services
+  - 🇦🇷 Video 阿根廷A-原生 - AyucLouD-Services
+  - 🇵🇭 Video 菲律宾A-原生 - AyucLouD-Services
+  - 🇭🇺 Video 匈牙利A-原生 - AyucLouD-Services
+  - 🇷🇴 Video 罗马利亚A-下载 - AyucLouD-Services
+  - 🇲🇩 Video 摩尔多瓦A- 原生 - AyucLouD-Services
+  - 🇦🇪 Video 阿布扎比A- 标准 - AyucLouD-Services
+  - 🇧🇬 Video 保加利亚A-原生 - AyucLouD-Services
+  - 🇸🇦 Video 沙特阿拉伯A-标准 - AyucLouD-Services
+  - 🇨🇾 Video 塞浦路斯A-原生 - AyucLouD-Services
+  - 🇵🇹 Video 葡萄牙A-标准 - AyucLouD-Services
+  - 🇧🇭 Video 巴林A-标准 - AyucLouD-Services
+  - 🇴🇲 Video 阿曼A-原生 - AyucLouD-Services
+  - 🇮🇳 Web 印度I-通用 - AyucLouD-Services
+  - 🇫🇷 Web 法国I-标准 - AyucLouD-Services
+  - 🇬🇧 Web 英国I-标准 - AyucLouD-Services
+  - 🇵🇱 Web 波兰I-原生 - AyucLouD-Services
+  - 🇷🇺 Web 俄罗斯I-标准 - AyucLouD-Services
+  - 🇨🇦 Web 加拿大I-标准 - AyucLouD-Services
+  - 🇦🇺 Web 澳大利亚I-标准 - AyucLouD-Services
+  - 🇮🇪 Web 爱尔兰I-原生 - AyucLouD-Services
+  - 🇳🇬 Web 尼日利亚I-原生 - AyucLouD-Services
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -27,11 +157,29 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,112 +187,305 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
+  - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
+  - 🇭🇰 Video 香港A-解锁 - AyucLouD-Services
+  - 🇭🇰 Video 香港B-标准 - AyucLouD-Services
+  - 🇭🇰 Video 香港C-标准 - AyucLouD-Services
+  - 🇭🇰 Web 香港I-标准 - AyucLouD-Services
+  - 🇭🇰 Web 香港II-标准 - AyucLouD-Services
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇹🇼 Game 台湾01-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾02-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾03-专线 - AyucLouD-Services
+  - 🇹🇼 Game 台湾04-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾05-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾06-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾07-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾08-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾A-标准 - AyucLouD-Services
+  - 🇹🇼 Video 台湾B-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾C-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾D-标准 - AyucLouD-Services
+  - 🇹🇼 Video 台湾E-解锁 - AyucLouD-Services
+  - 🇹🇼 Web 台湾I-标准 - AyucLouD-Services
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
+  - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
+  - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
+  - 🇭🇰 Video 香港A-解锁 - AyucLouD-Services
+  - 🇭🇰 Video 香港B-标准 - AyucLouD-Services
+  - 🇭🇰 Video 香港C-标准 - AyucLouD-Services
+  - 🇭🇰 Web 香港I-标准 - AyucLouD-Services
+  - 🇭🇰 Web 香港II-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾01-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾02-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾03-专线 - AyucLouD-Services
+  - 🇹🇼 Game 台湾04-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾05-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾06-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾07-标准 - AyucLouD-Services
+  - 🇹🇼 Game 台湾08-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾A-标准 - AyucLouD-Services
+  - 🇹🇼 Video 台湾B-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾C-原生 - AyucLouD-Services
+  - 🇹🇼 Video 台湾D-标准 - AyucLouD-Services
+  - 🇹🇼 Video 台湾E-解锁 - AyucLouD-Services
+  - 🇹🇼 Web 台湾I-标准 - AyucLouD-Services
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
+  - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
+  - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
+  - 🇸🇬 Video 新加坡A-解锁 - AyucLouD-Services
+  - 🇸🇬 Video 新加坡B-标准 - AyucLouD-Services
+  - 🇸🇬 Web 新加坡I-标准 - AyucLouD-Services
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 Game 日本01-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本02-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本03-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
+  - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
+  - 🇯🇵 Game 日本06-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本08-标准 - AyucLouD-Services
+  - 🇯🇵 Game 日本09-专线 - AyucLouD-Services
+  - 🇯🇵 Game 日本10-标准 - AyucLouD-Services
+  - 🇯🇵 Video 日本A-标准 - AyucLouD-Services
+  - 🇯🇵 Video 日本B-解锁 - AyucLouD-Services
+  - 🇯🇵 Video 日本C-原生 - AyucLouD-Services
+  - 🇯🇵 Web 日本I-标准 - AyucLouD-Services
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id007
+  - 🇺🇸 Game 美国01-原生 - AyucLouD-Services
+  - 🇺🇸 Game 美国02-原生 - AyucLouD-Services
+  - 🇺🇸 Game 美国03-标准 - AyucLouD-Services
+  - 🇺🇸 Game 美国04-通用 - AyucLouD-Services
+  - 🇺🇸 Game 美国05-标准 - AyucLouD-Services
+  - 🇺🇸 Video 美国A-标准 - AyucLouD-Services
+  - 🇺🇸 Video 美国B-解锁 - AyucLouD-Services
+  - 🇺🇸 Video 美国C-原生 - AyucLouD-Services
+  - 🇺🇸 Video 美国D-原生 - AyucLouD-Services
+  - 🇺🇸 Web 美国I-标准 - AyucLouD-Services
+  - 🇺🇸 Web 美国II-标准 - AyucLouD-Services
+  - 🇺🇸 Web 美国III-标准 - AyucLouD-Services
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id008
+  - 🇶🇦 Video 卡塔尔A-标准 - AyucLouD-Services
+  - 🇱🇻 Video 拉脱维亚A-标准 - AyucLouD-Services
+  - 🇪🇪 Web 爱沙尼亚I-标准 - AyucLouD-Services
+  - 🇦🇲 Video 亚美尼亚A-标准 - AyucLouD-Services
+  - 🇭🇷 Video 克罗地亚A-标准 - AyucLouD-Services
+  - 🇦🇱 Web 阿尔巴尼亚I-标准 - AyucLouD-Services
+  - 🇰🇿 Video 哈萨克斯坦A-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国01-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国02-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国03-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国04-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国05-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国06-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国07-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国08-通用 - AyucLouD-Services
+  - 🇰🇷 Game 韩国09-标准 - AyucLouD-Services
+  - 🇰🇷 Game 韩国10-原生 - AyucLouD-Services
+  - 🇰🇷 Game 韩国11-国际 - AyucLouD-Services
+  - 🇰🇷 Game 韩国12-原生 - AyucLouD-Services
+  - 🇰🇷 Game 韩国13-标准 - AyucLouD-Services
+  - 🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Services
+  - 🇰🇷 Video 韩国A-标准 - AyucLouD-Services
+  - 🇨🇱 Video 智利A-标准 - AyucLouD-Services
+  - 🇧🇷 Video 巴西A-标准 - AyucLouD-Services
+  - 🇩🇰 Video 丹麦A-原生 - AyucLouD-Services
+  - 🇹🇷 Video 土耳其A-标准 - AyucLouD-Services
+  - 🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Services
+  - 🇦🇷 Video 阿根廷A-原生 - AyucLouD-Services
+  - 🇵🇭 Video 菲律宾A-原生 - AyucLouD-Services
+  - 🇭🇺 Video 匈牙利A-原生 - AyucLouD-Services
+  - 🇷🇴 Video 罗马利亚A-下载 - AyucLouD-Services
+  - 🇲🇩 Video 摩尔多瓦A- 原生 - AyucLouD-Services
+  - 🇦🇪 Video 阿布扎比A- 标准 - AyucLouD-Services
+  - 🇧🇬 Video 保加利亚A-原生 - AyucLouD-Services
+  - 🇸🇦 Video 沙特阿拉伯A-标准 - AyucLouD-Services
+  - 🇨🇾 Video 塞浦路斯A-原生 - AyucLouD-Services
+  - 🇵🇹 Video 葡萄牙A-标准 - AyucLouD-Services
+  - 🇧🇭 Video 巴林A-标准 - AyucLouD-Services
+  - 🇴🇲 Video 阿曼A-原生 - AyucLouD-Services
+  - 🇮🇳 Web 印度I-通用 - AyucLouD-Services
+  - 🇫🇷 Web 法国I-标准 - AyucLouD-Services
+  - 🇬🇧 Web 英国I-标准 - AyucLouD-Services
+  - 🇵🇱 Web 波兰I-原生 - AyucLouD-Services
+  - 🇷🇺 Web 俄罗斯I-标准 - AyucLouD-Services
+  - 🇨🇦 Web 加拿大I-标准 - AyucLouD-Services
+  - 🇦🇺 Web 澳大利亚I-标准 - AyucLouD-Services
+  - 🇮🇪 Web 爱尔兰I-原生 - AyucLouD-Services
+  - 🇳🇬 Web 尼日利亚I-原生 - AyucLouD-Services
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  proxies: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id004
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
 proxies:
-- {name: Video 卡塔尔A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 15558, type: ss, cipher: aes-128-gcm, password: 1m23sddsc4532r, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 拉脱维亚A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39172, type: ss, cipher: aes-128-gcm, password: fagecooal&da, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 爱沙尼亚I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 39174, type: ss, cipher: aes-128-gcm, password: fhrtjdxt*&$, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 亚美尼亚A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39178, type: ss, cipher: aes-128-gcm, password: gergwasafs&*k, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 克罗地亚A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39182, type: ss, cipher: aes-128-gcm, password: gfsagadhfs&*k, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 阿尔巴尼亚I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 39184, type: ss, cipher: aes-128-gcm, password: gftgfddafgdfs, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 哈萨克斯坦A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39192, type: ss, cipher: aes-128-gcm, password: likutytFKS&r, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 803, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 806, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 913, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国04-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 817, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9030, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 920, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国07-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9035, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国08-通用 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 917, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国09-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9019, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国10-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9001, type: ss, cipher: aes-128-gcm, password: ayucew2, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国11-国际 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 807, type: ss, cipher: aes-128-gcm, password: ayuclsaa, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国12-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 810, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 韩国13-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 921, type: ss, cipher: aes-128-gcm, password: ayucl243113, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 919, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 825, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾03-专线 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 834, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾04-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 908, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9040, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 835, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾07-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 905, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 台湾08-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 904, type: ss, cipher: aes-128-gcm, password: a12cloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 香港01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 香港02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9054, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 香港03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9063, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 香港04-国际 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 20012, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 香港05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 907, type: ss, cipher: aes-128-gcm, password: ayucles1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 香港06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 823, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9059, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9062, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 819, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本04-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9021, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本05-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 914, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 909, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本07-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 918, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本08-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 811, type: ss, cipher: aes-128-gcm, password: ay2dsd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本09-专线 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 1313, type: ss, cipher: aes-128-gcm, password: fjlfjafl231303831, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 日本10-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 901, type: ss, cipher: aes-128-gcm, password: ay21d1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 美国01-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9873, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 美国02-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 821, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 美国03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 903, type: ss, cipher: aes-128-gcm, password: ay2l23ud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 美国04-通用 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 910, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 美国05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 906, type: ss, cipher: aes-128-gcm, password: ay2loud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 新加坡01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9060, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 新加坡02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9037, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 新加坡03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 902, type: ss, cipher: aes-128-gcm, password: ayuc211, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Game 俄罗斯01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 37863, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 韩国A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 804, type: ss, cipher: aes-128-gcm, password: wedsa, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 台湾A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9048, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 台湾B-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9022, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 台湾C-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 916, type: ss, cipher: aes-128-gcm, password: fsfal2, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 台湾D-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 926, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 台湾E-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39004, type: ss, cipher: aes-128-gcm, password: ayds23sd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 香港A-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9053, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 香港B-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 8001, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 香港C-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9052, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 日本A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 818, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 日本B-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 813, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 日本C-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 4321, type: ss, cipher: aes-128-gcm, password: ay232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 美国A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 820, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 美国B-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 809, type: ss, cipher: aes-128-gcm, password: ayucjrsll, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 美国C-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 911, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 美国D-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 857, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 智利A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 2201, type: ss, cipher: aes-128-gcm, password: 'dajsdkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 巴西A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 2789, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 丹麦A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39201, type: ss, cipher: aes-128-gcm, password: 'dadk2jat*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 新加坡A-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9038, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 新加坡B-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 19999, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 土耳其A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 3033, type: ss, cipher: aes-128-gcm, password: ayugfsd, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 俄罗斯A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 1549, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 阿根廷A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 6041, type: ss, cipher: aes-128-gcm, password: ayds232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 菲律宾A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 44444, type: ss, cipher: aes-128-gcm, password: ayds232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 匈牙利A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 38011, type: ss, cipher: aes-128-gcm, password: 'dajkdr&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 罗马利亚A-下载 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 10058, type: ss, cipher: aes-128-gcm, password: 2sa2/1a, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 摩尔多瓦A- 原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 37865, type: ss, cipher: aes-128-gcm, password: 'dajkdkjdsa&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 阿布扎比A- 标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 38002, type: ss, cipher: aes-128-gcm, password: 'dajkdkjdssa&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 保加利亚A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39073, type: ss, cipher: aes-128-gcm, password: 'dajkbgja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 沙特阿拉伯A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 6559, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 塞浦路斯A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36203, type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 葡萄牙A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36243, type: ss, cipher: aes-128-gcm, password: Vdss1samj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 巴林A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36452, type: ss, cipher: aes-128-gcm, password: 1mj21sr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Video 阿曼A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36454, type: ss, cipher: aes-128-gcm, password: 1mj21sr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 台湾I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 9047, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 香港I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 912, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 香港II-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 840, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 日本I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 9051, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 美国I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 925, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 美国II-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 812, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 美国III-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 837, type: ss, cipher: aes-128-gcm, password: ayucl12s1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 印度I-通用 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 816, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 法国I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 915, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 英国I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 2688, type: ss, cipher: aes-128-gcm, password: fs23l/, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 波兰I-原生 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 2205, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 俄罗斯I-标准 - AyucLouD-Services, server: emsdsbsser.unclemanco.com, port: 9020, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 加拿大I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 924, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 新加坡I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 6879, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 澳大利亚I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 9044, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 爱尔兰I-原生 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 36201, type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
-- {name: Web 尼日利亚I-原生 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 10021, type: ss, cipher: aes-128-gcm, password: aa2x2sa2/1a, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇶🇦 Video 卡塔尔A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 15558, type: ss, cipher: aes-128-gcm, password: 1m23sddsc4532r, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇱🇻 Video 拉脱维亚A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39172, type: ss, cipher: aes-128-gcm, password: fagecooal&da, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇪🇪 Web 爱沙尼亚I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 39174, type: ss, cipher: aes-128-gcm, password: fhrtjdxt*&$, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇦🇲 Video 亚美尼亚A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39178, type: ss, cipher: aes-128-gcm, password: gergwasafs&*k, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇷 Video 克罗地亚A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39182, type: ss, cipher: aes-128-gcm, password: gfsagadhfs&*k, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇦🇱 Web 阿尔巴尼亚I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 39184, type: ss, cipher: aes-128-gcm, password: gftgfddafgdfs, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇿 Video 哈萨克斯坦A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39192, type: ss, cipher: aes-128-gcm, password: likutytFKS&r, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 803, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 806, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 913, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国04-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 817, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9030, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 920, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国07-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9035, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国08-通用 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 917, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国09-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9019, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国10-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9001, type: ss, cipher: aes-128-gcm, password: ayucew2, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国11-国际 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 807, type: ss, cipher: aes-128-gcm, password: ayuclsaa, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国12-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 810, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Game 韩国13-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 921, type: ss, cipher: aes-128-gcm, password: ayucl243113, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 919, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 825, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾03-专线 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 834, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾04-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 908, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9040, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 835, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾07-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 905, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Game 台湾08-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 904, type: ss, cipher: aes-128-gcm, password: a12cloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Game 香港01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Game 香港02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9054, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Game 香港03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9063, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Game 香港04-国际 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 20012, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Game 香港05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 907, type: ss, cipher: aes-128-gcm, password: ayucles1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Game 香港06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 823, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9059, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9062, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 819, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本04-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9021, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本05-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 914, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本06-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 909, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本07-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 918, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本08-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 811, type: ss, cipher: aes-128-gcm, password: ay2dsd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本09-专线 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 1313, type: ss, cipher: aes-128-gcm, password: fjlfjafl231303831, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Game 日本10-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 901, type: ss, cipher: aes-128-gcm, password: ay21d1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Game 美国01-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9873, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Game 美国02-原生 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 821, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Game 美国03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 903, type: ss, cipher: aes-128-gcm, password: ay2l23ud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Game 美国04-通用 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 910, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Game 美国05-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 906, type: ss, cipher: aes-128-gcm, password: ay2loud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9060, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 9037, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 902, type: ss, cipher: aes-128-gcm, password: ayuc211, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Services, server: canvasdxs.unclemanco.com, port: 37863, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇰🇷 Video 韩国A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 804, type: ss, cipher: aes-128-gcm, password: wedsa, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Video 台湾A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9048, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Video 台湾B-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9022, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Video 台湾C-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 916, type: ss, cipher: aes-128-gcm, password: fsfal2, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Video 台湾D-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 926, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Video 台湾E-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39004, type: ss, cipher: aes-128-gcm, password: ayds23sd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Video 香港A-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9053, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Video 香港B-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 8001, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Video 香港C-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9052, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Video 日本A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 818, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Video 日本B-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 813, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Video 日本C-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 4321, type: ss, cipher: aes-128-gcm, password: ay232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Video 美国A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 820, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Video 美国B-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 809, type: ss, cipher: aes-128-gcm, password: ayucjrsll, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Video 美国C-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 911, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Video 美国D-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 857, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇨🇱 Video 智利A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 2201, type: ss, cipher: aes-128-gcm, password: 'dajsdkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇧🇷 Video 巴西A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 2789, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇩🇰 Video 丹麦A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39201, type: ss, cipher: aes-128-gcm, password: 'dadk2jat*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇬 Video 新加坡A-解锁 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 9038, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇬 Video 新加坡B-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 19999, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇷 Video 土耳其A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 3033, type: ss, cipher: aes-128-gcm, password: ayugfsd, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 1549, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇦🇷 Video 阿根廷A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 6041, type: ss, cipher: aes-128-gcm, password: ayds232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇵🇭 Video 菲律宾A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 44444, type: ss, cipher: aes-128-gcm, password: ayds232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇺 Video 匈牙利A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 38011, type: ss, cipher: aes-128-gcm, password: 'dajkdr&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇷🇴 Video 罗马利亚A-下载 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 10058, type: ss, cipher: aes-128-gcm, password: 2sa2/1a, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇲🇩 Video 摩尔多瓦A- 原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 37865, type: ss, cipher: aes-128-gcm, password: 'dajkdkjdsa&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇦🇪 Video 阿布扎比A- 标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 38002, type: ss, cipher: aes-128-gcm, password: 'dajkdkjdssa&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇧🇬 Video 保加利亚A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 39073, type: ss, cipher: aes-128-gcm, password: 'dajkbgja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇦 Video 沙特阿拉伯A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 6559, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇨🇾 Video 塞浦路斯A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36203, type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇵🇹 Video 葡萄牙A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36243, type: ss, cipher: aes-128-gcm, password: Vdss1samj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇧🇭 Video 巴林A-标准 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36452, type: ss, cipher: aes-128-gcm, password: 1mj21sr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇴🇲 Video 阿曼A-原生 - AyucLouD-Services, server: driftsdds.unclemanco.com, port: 36454, type: ss, cipher: aes-128-gcm, password: 1mj21sr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇹🇼 Web 台湾I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 9047, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Web 香港I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 912, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇭🇰 Web 香港II-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 840, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇯🇵 Web 日本I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 9051, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Web 美国I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 925, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Web 美国II-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 812, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇺🇸 Web 美国III-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 837, type: ss, cipher: aes-128-gcm, password: ayucl12s1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇮🇳 Web 印度I-通用 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 816, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇫🇷 Web 法国I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 915, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇬🇧 Web 英国I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 2688, type: ss, cipher: aes-128-gcm, password: fs23l/, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇵🇱 Web 波兰I-原生 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 2205, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇷🇺 Web 俄罗斯I-标准 - AyucLouD-Services, server: emsdsbsser.unclemanco.com, port: 9020, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇨🇦 Web 加拿大I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 924, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇸🇬 Web 新加坡I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 6879, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇦🇺 Web 澳大利亚I-标准 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 9044, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇮🇪 Web 爱尔兰I-原生 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 36201, type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
+- {name: 🇳🇬 Web 尼日利亚I-原生 - AyucLouD-Services, server: echosdj.unclemanco.com, port: 10021, type: ss, cipher: aes-128-gcm, password: aa2x2sa2/1a, plugin: obfs, plugin-opts: {mode: http, host: c7d36115540.download.windowsupdate.com}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -592,280 +933,6 @@ rules:
 - DOMAIN-SUFFIX,rlcdn.com,💩 ‍广告
 - DOMAIN-SUFFIX,rtbasia.com,💩 ‍广告
 - DOMAIN-SUFFIX,sanya1.com,💩 ‍广告
-- DOMAIN-SUFFIX,scupio.com,💩 ‍广告
-- DOMAIN-SUFFIX,shuiguo.com,💩 ‍广告
-- DOMAIN-SUFFIX,shuzilm.cn,💩 ‍广告
-- DOMAIN-SUFFIX,similarweb.com,💩 ‍广告
-- DOMAIN-SUFFIX,sitemeter.com,💩 ‍广告
-- DOMAIN-SUFFIX,sitescout.com,💩 ‍广告
-- DOMAIN-SUFFIX,sitetag.us,💩 ‍广告
-- DOMAIN-SUFFIX,smartmad.com,💩 ‍广告
-- DOMAIN-SUFFIX,social-touch.com,💩 ‍广告
-- DOMAIN-SUFFIX,somecoding.com,💩 ‍广告
-- DOMAIN-SUFFIX,sponsorpay.com,💩 ‍广告
-- DOMAIN-SUFFIX,stargame.com,💩 ‍广告
-- DOMAIN-SUFFIX,stg8.com,💩 ‍广告
-- DOMAIN-SUFFIX,switchadhub.com,💩 ‍广告
-- DOMAIN-SUFFIX,sycbbs.com,💩 ‍广告
-- DOMAIN-SUFFIX,synacast.com,💩 ‍广告
-- DOMAIN-SUFFIX,sysdig.com,💩 ‍广告
-- DOMAIN-SUFFIX,talkingdata.com,💩 ‍广告
-- DOMAIN-SUFFIX,talkingdata.net,💩 ‍广告
-- DOMAIN-SUFFIX,tansuotv.com,💩 ‍广告
-- DOMAIN-SUFFIX,tanv.com,💩 ‍广告
-- DOMAIN-SUFFIX,tanx.com,💩 ‍广告
-- DOMAIN-SUFFIX,tapjoy.cn,💩 ‍广告
-- DOMAIN-SUFFIX,th7.cn,💩 ‍广告
-- DOMAIN-SUFFIX,thoughtleadr.com,💩 ‍广告
-- DOMAIN-SUFFIX,tianmidian.com,💩 ‍广告
-- DOMAIN-SUFFIX,tiqcdn.com,💩 ‍广告
-- DOMAIN-SUFFIX,touclick.com,💩 ‍广告
-- DOMAIN-SUFFIX,trafficjam.cn,💩 ‍广告
-- DOMAIN-SUFFIX,trafficmp.com,💩 ‍广告
-- DOMAIN-SUFFIX,tuia.cn,💩 ‍广告
-- DOMAIN-SUFFIX,ueadlian.com,💩 ‍广告
-- DOMAIN-SUFFIX,uerzyr.cn,💩 ‍广告
-- DOMAIN-SUFFIX,ugdtimg.com,💩 ‍广告
-- DOMAIN-SUFFIX,ugvip.com,💩 ‍广告
-- DOMAIN-SUFFIX,ujian.cc,💩 ‍广告
-- DOMAIN-SUFFIX,ukeiae.com,💩 ‍广告
-- DOMAIN-SUFFIX,umeng.co,💩 ‍广告
-- DOMAIN-SUFFIX,umeng.com,💩 ‍广告
-- DOMAIN-SUFFIX,umtrack.com,💩 ‍广告
-- DOMAIN-SUFFIX,unimhk.com,💩 ‍广告
-- DOMAIN-SUFFIX,union-wifi.com,💩 ‍广告
-- DOMAIN-SUFFIX,union001.com,💩 ‍广告
-- DOMAIN-SUFFIX,unionsy.com,💩 ‍广告
-- DOMAIN-SUFFIX,unlitui.com,💩 ‍广告
-- DOMAIN-SUFFIX,uri6.com,💩 ‍广告
-- DOMAIN-SUFFIX,ushaqi.com,💩 ‍广告
-- DOMAIN-SUFFIX,usingde.com,💩 ‍广告
-- DOMAIN-SUFFIX,uuzu.com,💩 ‍广告
-- DOMAIN-SUFFIX,uyunad.com,💩 ‍广告
-- DOMAIN-SUFFIX,vamaker.com,💩 ‍广告
-- DOMAIN-SUFFIX,vlion.cn,💩 ‍广告
-- DOMAIN-SUFFIX,voiceads.cn,💩 ‍广告
-- DOMAIN-SUFFIX,voiceads.com,💩 ‍广告
-- DOMAIN-SUFFIX,vpon.com,💩 ‍广告
-- DOMAIN-SUFFIX,vungle.cn,💩 ‍广告
-- DOMAIN-SUFFIX,vungle.com,💩 ‍广告
-- DOMAIN-SUFFIX,waps.cn,💩 ‍广告
-- DOMAIN-SUFFIX,wapx.cn,💩 ‍广告
-- DOMAIN-SUFFIX,webterren.com,💩 ‍广告
-- DOMAIN-SUFFIX,whpxy.com,💩 ‍广告
-- DOMAIN-SUFFIX,winads.cn,💩 ‍广告
-- DOMAIN-SUFFIX,winasdaq.com,💩 ‍广告
-- DOMAIN-SUFFIX,wiyun.com,💩 ‍广告
-- DOMAIN-SUFFIX,wooboo.com.cn,💩 ‍广告
-- DOMAIN-SUFFIX,wqmobile.com,💩 ‍广告
-- DOMAIN-SUFFIX,wrating.com,💩 ‍广告
-- DOMAIN-SUFFIX,wumii.cn,💩 ‍广告
-- DOMAIN-SUFFIX,wwads.cn,💩 ‍广告
-- DOMAIN-SUFFIX,xcy8.com,💩 ‍广告
-- DOMAIN-SUFFIX,xdrig.com,💩 ‍广告
-- DOMAIN-SUFFIX,xiaozhen.com,💩 ‍广告
-- DOMAIN-SUFFIX,xibao100.com,💩 ‍广告
-- DOMAIN-SUFFIX,xtgreat.com,💩 ‍广告
-- DOMAIN-SUFFIX,xy.com,💩 ‍广告
-- DOMAIN-SUFFIX,yandui.com,💩 ‍广告
-- DOMAIN-SUFFIX,yigao.com,💩 ‍广告
-- DOMAIN-SUFFIX,yijifen.com,💩 ‍广告
-- DOMAIN-SUFFIX,yinooo.com,💩 ‍广告
-- DOMAIN-SUFFIX,yiqifa.com,💩 ‍广告
-- DOMAIN-SUFFIX,yiwk.com,💩 ‍广告
-- DOMAIN-SUFFIX,ylunion.com,💩 ‍广告
-- DOMAIN-SUFFIX,ymapp.com,💩 ‍广告
-- DOMAIN-SUFFIX,ymcdn.cn,💩 ‍广告
-- DOMAIN-SUFFIX,yongyuelm.com,💩 ‍广告
-- DOMAIN-SUFFIX,yooli.com,💩 ‍广告
-- DOMAIN-SUFFIX,youmi.net,💩 ‍广告
-- DOMAIN-SUFFIX,youxiaoad.com,💩 ‍广告
-- DOMAIN-SUFFIX,yoyi.com.cn,💩 ‍广告
-- DOMAIN-SUFFIX,yoyi.tv,💩 ‍广告
-- DOMAIN-SUFFIX,yrxmr.com,💩 ‍广告
-- DOMAIN-SUFFIX,ysjwj.com,💩 ‍广告
-- DOMAIN-SUFFIX,yunjiasu.com,💩 ‍广告
-- DOMAIN-SUFFIX,yunpifu.cn,💩 ‍广告
-- DOMAIN-SUFFIX,zampdsp.com,💩 ‍广告
-- DOMAIN-SUFFIX,zamplus.com,💩 ‍广告
-- DOMAIN-SUFFIX,zcdsp.com,💩 ‍广告
-- DOMAIN-SUFFIX,zhidian3g.cn,💩 ‍广告
-- DOMAIN-SUFFIX,zhiziyun.com,💩 ‍广告
-- DOMAIN-SUFFIX,zhjfad.com,💩 ‍广告
-- DOMAIN-SUFFIX,zqzxz.com,💩 ‍广告
-- DOMAIN-SUFFIX,zzsx8.com,💩 ‍广告
-- DOMAIN-SUFFIX,acuityplatform.com,💩 ‍广告
-- DOMAIN-SUFFIX,ad-stir.com,💩 ‍广告
-- DOMAIN-SUFFIX,ad-survey.com,💩 ‍广告
-- DOMAIN-SUFFIX,ad4game.com,💩 ‍广告
-- DOMAIN-SUFFIX,adcloud.jp,💩 ‍广告
-- DOMAIN-SUFFIX,adcolony.com,💩 ‍广告
-- DOMAIN-SUFFIX,addthis.com,💩 ‍广告
-- DOMAIN-SUFFIX,adfurikun.jp,💩 ‍广告
-- DOMAIN-SUFFIX,adhigh.net,💩 ‍广告
-- DOMAIN-SUFFIX,adhood.com,💩 ‍广告
-- DOMAIN-SUFFIX,adinall.com,💩 ‍广告
-- DOMAIN-SUFFIX,adition.com,💩 ‍广告
-- DOMAIN-SUFFIX,adk2x.com,💩 ‍广告
-- DOMAIN-SUFFIX,admarket.mobi,💩 ‍广告
-- DOMAIN-SUFFIX,admedia.com,💩 ‍广告
-- DOMAIN-SUFFIX,adnxs.com,💩 ‍广告
-- DOMAIN-SUFFIX,adotmob.com,💩 ‍广告
-- DOMAIN-SUFFIX,adperium.com,💩 ‍广告
-- DOMAIN-SUFFIX,adriver.ru,💩 ‍广告
-- DOMAIN-SUFFIX,adroll.com,💩 ‍广告
-- DOMAIN-SUFFIX,adsco.re,💩 ‍广告
-- DOMAIN-SUFFIX,adservice.com,💩 ‍广告
-- DOMAIN-SUFFIX,adsrvr.org,💩 ‍广告
-- DOMAIN-SUFFIX,adsymptotic.com,💩 ‍广告
-- DOMAIN-SUFFIX,adtaily.com,💩 ‍广告
-- DOMAIN-SUFFIX,adtech.de,💩 ‍广告
-- DOMAIN-SUFFIX,adtechjp.com,💩 ‍广告
-- DOMAIN-SUFFIX,adtechus.com,💩 ‍广告
-- DOMAIN-SUFFIX,airpush.com,💩 ‍广告
-- DOMAIN-SUFFIX,am15.net,💩 ‍广告
-- DOMAIN-SUFFIX,amobee.com,💩 ‍广告
-- DOMAIN-SUFFIX,appier.net,💩 ‍广告
-- DOMAIN-SUFFIX,applift.com,💩 ‍广告
-- DOMAIN-SUFFIX,apsalar.com,💩 ‍广告
-- DOMAIN-SUFFIX,atas.io,💩 ‍广告
-- DOMAIN-SUFFIX,awempire.com,💩 ‍广告
-- DOMAIN-SUFFIX,axonix.com,💩 ‍广告
-- DOMAIN-SUFFIX,beintoo.com,💩 ‍广告
-- DOMAIN-SUFFIX,bepolite.eu,💩 ‍广告
-- DOMAIN-SUFFIX,bidtheatre.com,💩 ‍广告
-- DOMAIN-SUFFIX,bidvertiser.com,💩 ‍广告
-- DOMAIN-SUFFIX,blismedia.com,💩 ‍广告
-- DOMAIN-SUFFIX,brucelead.com,💩 ‍广告
-- DOMAIN-SUFFIX,bttrack.com,💩 ‍广告
-- DOMAIN-SUFFIX,casalemedia.com,💩 ‍广告
-- DOMAIN-SUFFIX,celtra.com,💩 ‍广告
-- DOMAIN-SUFFIX,channeladvisor.com,💩 ‍广告
-- DOMAIN-SUFFIX,connexity.net,💩 ‍广告
-- DOMAIN-SUFFIX,criteo.com,💩 ‍广告
-- DOMAIN-SUFFIX,criteo.net,💩 ‍广告
-- DOMAIN-SUFFIX,csbew.com,💩 ‍广告
-- DOMAIN-SUFFIX,directrev.com,💩 ‍广告
-- DOMAIN-SUFFIX,dumedia.ru,💩 ‍广告
-- DOMAIN-SUFFIX,effectivemeasure.com,💩 ‍广告
-- DOMAIN-SUFFIX,effectivemeasure.net,💩 ‍广告
-- DOMAIN-SUFFIX,eqads.com,💩 ‍广告
-- DOMAIN-SUFFIX,everesttech.net,💩 ‍广告
-- DOMAIN-SUFFIX,exoclick.com,💩 ‍广告
-- DOMAIN-SUFFIX,extend.tv,💩 ‍广告
-- DOMAIN-SUFFIX,eyereturn.com,💩 ‍广告
-- DOMAIN-SUFFIX,fastapi.net,💩 ‍广告
-- DOMAIN-SUFFIX,fastclick.com,💩 ‍广告
-- DOMAIN-SUFFIX,fastclick.net,💩 ‍广告
-- DOMAIN-SUFFIX,flurry.com,💩 ‍广告
-- DOMAIN-SUFFIX,gosquared.com,💩 ‍广告
-- DOMAIN-SUFFIX,gtags.net,💩 ‍广告
-- DOMAIN-SUFFIX,heyzap.com,💩 ‍广告
-- DOMAIN-SUFFIX,histats.com,💩 ‍广告
-- DOMAIN-SUFFIX,hitslink.com,💩 ‍广告
-- DOMAIN-SUFFIX,hot-mob.com,💩 ‍广告
-- DOMAIN-SUFFIX,hyperpromote.com,💩 ‍广告
-- DOMAIN-SUFFIX,i-mobile.co.jp,💩 ‍广告
-- DOMAIN-SUFFIX,imrworldwide.com,💩 ‍广告
-- DOMAIN-SUFFIX,inmobi.com,💩 ‍广告
-- DOMAIN-SUFFIX,inner-active.mobi,💩 ‍广告
-- DOMAIN-SUFFIX,intentiq.com,💩 ‍广告
-- DOMAIN-SUFFIX,inter1ads.com,💩 ‍广告
-- DOMAIN-SUFFIX,ipredictive.com,💩 ‍广告
-- DOMAIN-SUFFIX,ironsrc.com,💩 ‍广告
-- DOMAIN-SUFFIX,iskyworker.com,💩 ‍广告
-- DOMAIN-SUFFIX,jizzads.com,💩 ‍广告
-- DOMAIN-SUFFIX,juicyads.com,💩 ‍广告
-- DOMAIN-SUFFIX,kochava.com,💩 ‍广告
-- DOMAIN-SUFFIX,leadbolt.com,💩 ‍广告
-- DOMAIN-SUFFIX,leadbolt.net,💩 ‍广告
-- DOMAIN-SUFFIX,leadboltads.net,💩 ‍广告
-- DOMAIN-SUFFIX,leadboltapps.net,💩 ‍广告
-- DOMAIN-SUFFIX,leadboltmobile.net,💩 ‍广告
-- DOMAIN-SUFFIX,lenzmx.com,💩 ‍广告
-- DOMAIN-SUFFIX,liveadvert.com,💩 ‍广告
-- DOMAIN-SUFFIX,marketgid.com,💩 ‍广告
-- DOMAIN-SUFFIX,marketo.com,💩 ‍广告
-- DOMAIN-SUFFIX,mdotm.com,💩 ‍广告
-- DOMAIN-SUFFIX,medialytics.com,💩 ‍广告
-- DOMAIN-SUFFIX,medialytics.io,💩 ‍广告
-- DOMAIN-SUFFIX,meetrics.com,💩 ‍广告
-- DOMAIN-SUFFIX,meetrics.net,💩 ‍广告
-- DOMAIN-SUFFIX,mgid.com,💩 ‍广告
-- DOMAIN-SUFFIX,millennialmedia.com,💩 ‍广告
-- DOMAIN-SUFFIX,mobadme.jp,💩 ‍广告
-- DOMAIN-SUFFIX,mobfox.com,💩 ‍广告
-- DOMAIN-SUFFIX,mobileadtrading.com,💩 ‍广告
-- DOMAIN-SUFFIX,mobilityware.com,💩 ‍广告
-- DOMAIN-SUFFIX,mojiva.com,💩 ‍广告
-- DOMAIN-SUFFIX,mookie1.com,💩 ‍广告
-- DOMAIN-SUFFIX,msads.net,💩 ‍广告
-- DOMAIN-SUFFIX,mydas.mobi,💩 ‍广告
-- DOMAIN-SUFFIX,nend.net,💩 ‍广告
-- DOMAIN-SUFFIX,netshelter.net,💩 ‍广告
-- DOMAIN-SUFFIX,nexage.com,💩 ‍广告
-- DOMAIN-SUFFIX,owneriq.net,💩 ‍广告
-- DOMAIN-SUFFIX,pixels.asia,💩 ‍广告
-- DOMAIN-SUFFIX,plista.com,💩 ‍广告
-- DOMAIN-SUFFIX,popads.net,💩 ‍广告
-- DOMAIN-SUFFIX,powerlinks.com,💩 ‍广告
-- DOMAIN-SUFFIX,propellerads.com,💩 ‍广告
-- DOMAIN-SUFFIX,quantserve.com,💩 ‍广告
-- DOMAIN-SUFFIX,rayjump.com,💩 ‍广告
-- DOMAIN-SUFFIX,revdepo.com,💩 ‍广告
-- DOMAIN-SUFFIX,rubiconproject.com,💩 ‍广告
-- DOMAIN-SUFFIX,sape.ru,💩 ‍广告
-- DOMAIN-SUFFIX,scorecardresearch.com,💩 ‍广告
-- DOMAIN-SUFFIX,segment.com,💩 ‍广告
-- DOMAIN-SUFFIX,serving-sys.com,💩 ‍广告
-- DOMAIN-SUFFIX,sharethis.com,💩 ‍广告
-- DOMAIN-SUFFIX,smaato.com,💩 ‍广告
-- DOMAIN-SUFFIX,smaato.net,💩 ‍广告
-- DOMAIN-SUFFIX,smartadserver.com,💩 ‍广告
-- DOMAIN-SUFFIX,smartnews-ads.com,💩 ‍广告
-- DOMAIN-SUFFIX,startapp.com,💩 ‍广告
-- DOMAIN-SUFFIX,startappexchange.com,💩 ‍广告
-- DOMAIN-SUFFIX,statcounter.com,💩 ‍广告
-- DOMAIN-SUFFIX,steelhousemedia.com,💩 ‍广告
-- DOMAIN-SUFFIX,stickyadstv.com,💩 ‍广告
-- DOMAIN-SUFFIX,supersonic.com,💩 ‍广告
-- DOMAIN-SUFFIX,taboola.com,💩 ‍广告
-- DOMAIN-SUFFIX,tapjoy.com,💩 ‍广告
-- DOMAIN-SUFFIX,tapjoyads.com,💩 ‍广告
-- DOMAIN-SUFFIX,trafficjunky.com,💩 ‍广告
-- DOMAIN-SUFFIX,trafficjunky.net,💩 ‍广告
-- DOMAIN-SUFFIX,tribalfusion.com,💩 ‍广告
-- DOMAIN-SUFFIX,turn.com,💩 ‍广告
-- DOMAIN-SUFFIX,uberads.com,💩 ‍广告
-- DOMAIN-SUFFIX,vidoomy.com,💩 ‍广告
-- DOMAIN-SUFFIX,viglink.com,💩 ‍广告
-- DOMAIN-SUFFIX,voicefive.com,💩 ‍广告
-- DOMAIN-SUFFIX,wedolook.com,💩 ‍广告
-- DOMAIN-SUFFIX,yadro.ru,💩 ‍广告
-- DOMAIN-SUFFIX,yengo.com,💩 ‍广告
-- DOMAIN-SUFFIX,zedo.com,💩 ‍广告
-- DOMAIN-SUFFIX,zemanta.com,💩 ‍广告
-- DOMAIN-SUFFIX,11h5.com,💩 ‍广告
-- DOMAIN-SUFFIX,1kxun.mobi,💩 ‍广告
-- DOMAIN-SUFFIX,26zsd.cn,💩 ‍广告
-- DOMAIN-SUFFIX,519397.com,💩 ‍广告
-- DOMAIN-SUFFIX,626uc.com,💩 ‍广告
-- DOMAIN-SUFFIX,915.com,💩 ‍广告
-- DOMAIN-SUFFIX,appget.cn,💩 ‍广告
-- DOMAIN-SUFFIX,appuu.cn,💩 ‍广告
-- DOMAIN-SUFFIX,coinhive.com,💩 ‍广告
-- DOMAIN-SUFFIX,huodonghezi.cn,💩 ‍广告
-- DOMAIN-SUFFIX,vcbn65.xyz,💩 ‍广告
-- DOMAIN-SUFFIX,wanfeng1.com,💩 ‍广告
-- DOMAIN-SUFFIX,wep016.top,💩 ‍广告
-- DOMAIN-SUFFIX,win-stock.com.cn,💩 ‍广告
-- DOMAIN-SUFFIX,zantainet.com,💩 ‍广告
-- DOMAIN-SUFFIX,dh54wf.xyz,💩 ‍广告
-- DOMAIN-SUFFIX,g2q3e.cn,💩 ‍广告
-- DOMAIN-SUFFIX,114so.cn,💩 ‍广告
-- DOMAIN-SUFFIX,go.10086.cn,💩 ‍广告
-- DOMAIN-SUFFIX,hivedata.cc,💩 ‍广告
-- DOMAIN-SUFFIX,navi.gd.chinamobile.com,💩 ‍广告
 - DOMAIN-SUFFIX,a.youdao.com,💩 ‍广告
 - DOMAIN-SUFFIX,adgeo.corp.163.com,💩 ‍广告
 - DOMAIN-SUFFIX,analytics.126.net,💩 ‍广告
@@ -908,6 +975,7 @@ rules:
 - DOMAIN-SUFFIX,ue.yeyoucdn.com,💩 ‍广告
 - DOMAIN-SUFFIX,vda.17173.com,💩 ‍广告
 - DOMAIN-SUFFIX,analytics.wanmei.com,💩 ‍广告
+- DOMAIN-SUFFIX,gg.stargame.com,💩 ‍广告
 - DOMAIN-SUFFIX,dl.2345.cn,💩 ‍广告
 - DOMAIN-SUFFIX,download.2345.cn,💩 ‍广告
 - DOMAIN-SUFFIX,houtai.2345.cn,💩 ‍广告
@@ -1397,6 +1465,7 @@ rules:
 - DOMAIN,adsmind.tc.qq.com,💩 ‍广告
 - DOMAIN,pgdt.gtimg.cn,💩 ‍广告
 - DOMAIN,pgdt.gtimg.com,💩 ‍广告
+- DOMAIN,pgdt.ugdtimg.com,💩 ‍广告
 - DOMAIN,splashqqlive.gtimg.com,💩 ‍广告
 - DOMAIN,wa.gtimg.com,💩 ‍广告
 - DOMAIN,wxsnsdy.wxs.qq.com,💩 ‍广告
@@ -1558,6 +1627,7 @@ rules:
 - DOMAIN-SUFFIX,clicks.beap.bc.yahoo.com,💩 ‍广告
 - DOMAIN-SUFFIX,comet.yahoo.com,💩 ‍广告
 - DOMAIN-SUFFIX,doubleplay-conf-yql.media.yahoo.com,💩 ‍广告
+- DOMAIN-SUFFIX,flurry.com,💩 ‍广告
 - DOMAIN-SUFFIX,gemini.yahoo.com,💩 ‍广告
 - DOMAIN-SUFFIX,geo.yahoo.com,💩 ‍广告
 - DOMAIN-SUFFIX,js-apac-ss.ysm.yahoo.com,💩 ‍广告
@@ -1778,6 +1848,7 @@ rules:
 - DOMAIN-SUFFIX,ad.ganji.com,💩 ‍广告
 - DOMAIN-SUFFIX,ad.house365.com,💩 ‍广告
 - DOMAIN-SUFFIX,ad.thepaper.cn,💩 ‍广告
+- DOMAIN-SUFFIX,ad.unimhk.com,💩 ‍广告
 - DOMAIN-SUFFIX,adadmin.house365.com,💩 ‍广告
 - DOMAIN-SUFFIX,adhome.1fangchan.com,💩 ‍广告
 - DOMAIN-SUFFIX,adm.10jqka.com.cn,💩 ‍广告
@@ -1881,51 +1952,18 @@ rules:
 - DOMAIN-SUFFIX,tools.google.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,tools.l.google.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🛩️ ‍墙内
-- DOMAIN,csgo.wmsj.cn,🛩️ ‍墙内
-- DOMAIN,dl.steam.clngaa.com,🛩️ ‍墙内
-- DOMAIN,dl.steam.ksyna.com,🛩️ ‍墙内
-- DOMAIN,dota2.wmsj.cn,🛩️ ‍墙内
-- DOMAIN,st.dl.bscstorage.net,🛩️ ‍墙内
-- DOMAIN,st.dl.eccdnx.com,🛩️ ‍墙内
-- DOMAIN,st.dl.pinyuncloud.com,🛩️ ‍墙内
-- DOMAIN,steampipe.steamcontent.tnkjmec.com,🛩️ ‍墙内
-- DOMAIN,steampowered.com.8686c.com,🛩️ ‍墙内
-- DOMAIN,steamstatic.com.8686c.com,🛩️ ‍墙内
-- DOMAIN,wmsjsteam.com,🛩️ ‍墙内
-- DOMAIN,xz.pphimalayanrt.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,cm.steampowered.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,steamchina.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,steamcontent.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,steamusercontent.com,🛩️ ‍墙内
-- DOMAIN,p-bstarstatic.akamaized.net,📺 ‍B站
-- DOMAIN,p.bstarstatic.com,📺 ‍B站
-- DOMAIN,upos-bstar-mirrorakam.akamaized.net,📺 ‍B站
-- DOMAIN,upos-bstar1-mirrorakam.akamaized.net,📺 ‍B站
-- DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 ‍B站
-- DOMAIN-SUFFIX,acgvideo.com,📺 ‍B站
-- DOMAIN-SUFFIX,bilibili.com,📺 ‍B站
-- DOMAIN-SUFFIX,bilibili.tv,📺 ‍B站
-- IP-CIDR,45.43.32.234/32,📺 ‍B站,no-resolve
-- IP-CIDR,103.151.150.0/23,📺 ‍B站,no-resolve
-- IP-CIDR,119.29.29.29/32,📺 ‍B站,no-resolve
-- IP-CIDR,128.1.62.200/32,📺 ‍B站,no-resolve
-- IP-CIDR,128.1.62.201/32,📺 ‍B站,no-resolve
-- IP-CIDR,150.116.92.250/32,📺 ‍B站,no-resolve
-- IP-CIDR,164.52.33.178/32,📺 ‍B站,no-resolve
-- IP-CIDR,164.52.33.182/32,📺 ‍B站,no-resolve
-- IP-CIDR,164.52.76.18/32,📺 ‍B站,no-resolve
-- IP-CIDR,203.107.1.33/32,📺 ‍B站,no-resolve
-- IP-CIDR,203.107.1.34/32,📺 ‍B站,no-resolve
-- IP-CIDR,203.107.1.65/32,📺 ‍B站,no-resolve
-- IP-CIDR,203.107.1.66/32,📺 ‍B站,no-resolve
 - DOMAIN,apiintl.biliapi.net,📺 ‍B站
+- DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 ‍B站
 - DOMAIN-SUFFIX,acg.tv,📺 ‍B站
+- DOMAIN-SUFFIX,acgvideo.com,📺 ‍B站
 - DOMAIN-SUFFIX,b23.tv,📺 ‍B站
 - DOMAIN-SUFFIX,bigfun.cn,📺 ‍B站
 - DOMAIN-SUFFIX,bigfunapp.cn,📺 ‍B站
 - DOMAIN-SUFFIX,biliapi.com,📺 ‍B站
 - DOMAIN-SUFFIX,biliapi.net,📺 ‍B站
 - DOMAIN-SUFFIX,bilibili.co,📺 ‍B站
+- DOMAIN-SUFFIX,bilibili.com,📺 ‍B站
+- DOMAIN-SUFFIX,bilibili.tv,📺 ‍B站
 - DOMAIN-SUFFIX,biligame.com,📺 ‍B站
 - DOMAIN-SUFFIX,biligame.net,📺 ‍B站
 - DOMAIN-SUFFIX,biliintl.co,📺 ‍B站
@@ -1934,49 +1972,12 @@ rules:
 - DOMAIN-SUFFIX,hdslb.com,📺 ‍B站
 - DOMAIN-SUFFIX,im9.com,📺 ‍B站
 - DOMAIN-SUFFIX,smtcdns.net,📺 ‍B站
-- DOMAIN-KEYWORD,anthropic,🤖 ‍AI
-- DOMAIN-KEYWORD,claude,🤖 ‍AI
-- DOMAIN-KEYWORD,openai,🤖 ‍AI
-- DOMAIN,ai.google.dev,🤖 ‍AI
-- DOMAIN,aistudio.google.com,🤖 ‍AI
-- DOMAIN,api.githubcopilot.com,🤖 ‍AI
-- DOMAIN,api.groq.com,🤖 ‍AI
-- DOMAIN,api.together.xyz,🤖 ‍AI
-- DOMAIN,bard.google.com,🤖 ‍AI
-- DOMAIN,console.groq.com,🤖 ‍AI
-- DOMAIN,copilot-proxy.githubusercontent.com,🤖 ‍AI
-- DOMAIN,gemini.google.com,🤖 ‍AI
-- DOMAIN,generativelanguage.googleapis.com,🤖 ‍AI
-- DOMAIN,sydney.bing.com,🤖 ‍AI
-- DOMAIN-SUFFIX,ai.azure.com,🤖 ‍AI
-- DOMAIN-SUFFIX,auth0.com,🤖 ‍AI
-- DOMAIN-SUFFIX,bard.google.com,🤖 ‍AI
-- DOMAIN-SUFFIX,chatgpt.com,🤖 ‍AI
-- DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 ‍AI
-- DOMAIN-SUFFIX,copilot.cloud.microsoft,🤖 ‍AI
-- DOMAIN-SUFFIX,copilot.microsoft.com,🤖 ‍AI
-- DOMAIN-SUFFIX,cursor.com,🤖 ‍AI
-- DOMAIN-SUFFIX,cursor.sh,🤖 ‍AI
-- DOMAIN-SUFFIX,events.statsigapi.net,🤖 ‍AI
-- DOMAIN-SUFFIX,featuregates.org,🤖 ‍AI
-- DOMAIN-SUFFIX,gemini.google.com,🤖 ‍AI
-- DOMAIN-SUFFIX,grazie.ai,🤖 ‍AI
-- DOMAIN-SUFFIX,grazie.aws.intellij.net,🤖 ‍AI
-- DOMAIN-SUFFIX,identrust.com,🤖 ‍AI
-- DOMAIN-SUFFIX,intercom.io,🤖 ‍AI
-- DOMAIN-SUFFIX,intercomcdn.com,🤖 ‍AI
-- DOMAIN-SUFFIX,makersuite.google.com,🤖 ‍AI
-- DOMAIN-SUFFIX,meta.ai,🤖 ‍AI
-- DOMAIN-SUFFIX,mistral.ai,🤖 ‍AI
-- DOMAIN-SUFFIX,oaistatic.com,🤖 ‍AI
-- DOMAIN-SUFFIX,oaiusercontent.com,🤖 ‍AI
-- DOMAIN-SUFFIX,perplexity.ai,🤖 ‍AI
-- DOMAIN-SUFFIX,sora.com,🤖 ‍AI
 - DOMAIN-SUFFIX,1password.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adguard.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,bit.no.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,btlibrary.me,✈️ ‍起飞
 - DOMAIN-SUFFIX,cccat.io,✈️ ‍起飞
+- DOMAIN-SUFFIX,chat.openai.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cloudcone.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,dubox.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gameloft.com,✈️ ‍起飞
@@ -1987,6 +1988,7 @@ rules:
 - DOMAIN-SUFFIX,linkedin.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,myteamspeak.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,notion.so,✈️ ‍起飞
+- DOMAIN-SUFFIX,openai.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,ping.pe,✈️ ‍起飞
 - DOMAIN-SUFFIX,reddit.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,teddysun.com,✈️ ‍起飞
@@ -2316,6 +2318,7 @@ rules:
 - DOMAIN-SUFFIX,answering-islam.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,antd.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,anthonycalzadilla.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,anthropic.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,anti1984.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,antichristendom.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,antiwave.net,✈️ ‍起飞
@@ -2848,6 +2851,7 @@ rules:
 - DOMAIN-SUFFIX,chaos.social,✈️ ‍起飞
 - DOMAIN-SUFFIX,chapm25.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,character.ai,✈️ ‍起飞
+- DOMAIN-SUFFIX,chatgpt.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,chatnook.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,chaturbate.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,checkgfw.com,✈️ ‍起飞
@@ -2967,6 +2971,7 @@ rules:
 - DOMAIN-SUFFIX,ck101.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,clarionproject.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,classicalguitarblog.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,claude.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,cleansite.biz,✈️ ‍起飞
 - DOMAIN-SUFFIX,cleansite.info,✈️ ‍起飞
 - DOMAIN-SUFFIX,clearharmony.net,✈️ ‍起飞
@@ -5570,6 +5575,7 @@ rules:
 - DOMAIN-SUFFIX,perfectgirls.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,perfectvpn.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,periscope.tv,✈️ ‍起飞
+- DOMAIN-SUFFIX,perplexity.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,persecutionblog.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,persiankitty.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,phapluan.org,✈️ ‍起飞
@@ -8017,6 +8023,19 @@ rules:
 - DOMAIN-SUFFIX,playstationnetwork.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,sony.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,steamcontent.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,steamusercontent.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,steamchina.com,🛩️ ‍墙内
+- DOMAIN,wmsjsteam.com,🛩️ ‍墙内
+- DOMAIN,dl.steam.clngaa.com,🛩️ ‍墙内
+- DOMAIN,dl.steam.ksyna.com,🛩️ ‍墙内
+- DOMAIN,st.dl.bscstorage.net,🛩️ ‍墙内
+- DOMAIN,st.dl.eccdnx.com,🛩️ ‍墙内
+- DOMAIN,st.dl.pinyuncloud.com,🛩️ ‍墙内
+- DOMAIN,xz.pphimalayanrt.com,🛩️ ‍墙内
+- DOMAIN,steampipe.steamcontent.tnkjmec.com,🛩️ ‍墙内
+- DOMAIN,steampowered.com.8686c.com,🛩️ ‍墙内
+- DOMAIN,steamstatic.com.8686c.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,foxmail.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,gtimg.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,idqqimg.com,🛩️ ‍墙内
@@ -8288,37 +8307,9 @@ rules:
 - DOMAIN-SUFFIX,weiphone.net,🛩️ ‍墙内
 - DOMAIN-SUFFIX,womai.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,wscdns.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xdrig.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,xhscdn.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,xiachufang.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xiaohongshu.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xiaojukeji.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xinhuanet.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xip.io,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xitek.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xslb.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xueqiu.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yach.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yeepay.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yhd.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yihaodianimg.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yinxiang.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yinyuetai.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yixia.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,ys168.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yuewen.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yy.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yystatic.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zealer.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhangzishi.cc,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhanqi.tv,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhaopin.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhihu.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhimg.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhipin.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhongsou.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhuihd.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,cmbchina.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,95516.com,🛩️ ‍墙内
 - IP-CIDR,8.128.0.0/10,🛩️ ‍墙内,no-resolve
 - IP-CIDR,8.209.32.0/22,🛩️ ‍墙内,no-resolve
 - IP-CIDR,8.209.40.0/21,🛩️ ‍墙内,no-resolve
