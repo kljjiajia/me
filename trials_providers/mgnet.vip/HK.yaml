@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇭🇰 [vip①]①香港 - MG Network', server: dx.miloli.me, port: 23612, type: vmess, uuid: 0f50b3ab-d49a-3c71-b730-31c59ca98233, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 [vip①]①香港 - MG Network', server: dx.miloli.me, port: 23612, type: vmess, uuid: 4397bc16-ffdb-38b9-97da-700fdfd4ff94, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
