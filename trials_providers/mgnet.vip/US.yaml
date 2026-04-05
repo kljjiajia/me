@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 2bab1936-1bf8-30f6-b9ee-7fba398a2115, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 8d1e607c-601d-3183-a173-a55f480412b8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
