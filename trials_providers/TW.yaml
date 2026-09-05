@@ -7,7 +7,7 @@ proxies:
 - {name: 🇹🇼 vip1 台湾-06 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, sni: tw02.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 vip1 台湾-07 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, sni: tw02.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 vip1 台湾-06 测试 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 38120, type: vmess, uuid: bede0d9e-4b03-425b-97dd-3ff4c4f4e153, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw02.ckcloud.info, network: grpc, grpc-opts: {grpc-service-name: flynwn}, udp: true}
-- {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 674ed411-370a-345a-b96a-9df34bdef9fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: e102a05a-a9e4-35f2-a4f5-7c4534f4be00, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾 HINET｜隧道 01 - 爱猫论坛, server: 120.195.181.54, port: 36018, type: vmess, uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾 HINET｜隧道 02 - 爱猫论坛, server: 120.195.181.54, port: 36019, type: vmess, uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾 HINET｜隧道 03 - 爱猫论坛, server: 120.195.181.54, port: 36020, type: vmess, uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
