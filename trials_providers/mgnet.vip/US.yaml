@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mgjiasuyunnet.26621689.xyz, port: 23615, type: vmess, uuid: 63ba99a7-0184-3a85-ba01-85f4ffe99a68, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mgjiasuyunnet.26621689.xyz}}, udp: true}
-- {name: '🇺🇸 [vip①]美国2|低倍率 - MG Network', server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 63ba99a7-0184-3a85-ba01-85f4ffe99a68, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mgjiasuyunnet.26621689.xyz, port: 23615, type: vmess, uuid: 617019ff-bcab-32fa-ae80-50422e027692, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: '🇺🇸 [vip①]美国2|低倍率 - MG Network', server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 617019ff-bcab-32fa-ae80-50422e027692, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mgjiasuyunnet.26621689.xyz}}, udp: true}
